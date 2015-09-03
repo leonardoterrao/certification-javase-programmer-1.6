@@ -1,4 +1,4 @@
-package test.killer.troytec.question6;
+package test.killer.troytec.question10;
 
 class ClassA {}
 class ClassB extends ClassA {}
