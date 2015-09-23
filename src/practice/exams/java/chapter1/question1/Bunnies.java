@@ -1,4 +1,4 @@
-package practice.exams.java.question1;
+package practice.exams.java.chapter1.question1;
 
 public class Bunnies {
 
