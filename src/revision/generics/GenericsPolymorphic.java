@@ -50,14 +50,14 @@ public class GenericsPolymorphic {
 		List<? super Dog> test5 = new ArrayList<Object>();
 		
 		listObject(new ArrayList<Object>());
-		listObject(new ArrayList<Dog>());
+//		listObject(new ArrayList<Dog>());
 		
 		listAnyObject(new ArrayList<Object>());
 		listAnyObject(new ArrayList<Dog>());
 	}
 	
 	private static void doAnimalEat(List<? extends Animal> animals) {
-		animals.add(new Dog());
+//		animals.add(new Dog());
 		for (Animal animal : animals) {
 			animal.eat();
 		}
@@ -68,7 +68,7 @@ public class GenericsPolymorphic {
 	}
 	
 	private static void listAnyObject(List<?> list) {
-		list.add(new Bird());
+//		list.add(new Bird());
 	}
 
 }
