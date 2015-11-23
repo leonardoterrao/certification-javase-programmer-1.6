@@ -1,12 +1,14 @@
 package practice.exams.java.chapter4.question4.d;
 
-public class ConcurrencyExample {
+import com.sun.swing.internal.plaf.synth.resources.synth;
+
+public class ConcurrencyExampleSync {
 
 	public static void main(String[] args) {
-		new ConcurrencyExample();
+		new ConcurrencyExampleSync();
 	}
 
-	public ConcurrencyExample() {
+	public ConcurrencyExampleSync() {
 		Run r = new Run();
 		Thread t1 = new Thread(r);
 		Thread t2 = new Thread(r);
@@ -31,15 +33,11 @@ public class ConcurrencyExample {
 	static class Counter {
 		private static int c = 0;
 
-		public static void increment() {
+		public static synchronized void increment() {
 			c++;
 		}
 
-		public static void decrement() {
-			c--;
-		}
-
-		public static int value() {
+		public static synchronized int value() {
 			return c;
 		}
 
