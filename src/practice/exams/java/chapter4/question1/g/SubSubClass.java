@@ -49,9 +49,11 @@ public class SubSubClass extends SubClass {
 		super2 = super3;
 		super3 = super2;
 		super3 = subsub1;
+		subsub1 = (SubSubClass) super3;
 		
 		System.out.println(sub1.methodX());
 		System.out.println(super3.methodX());
+		System.out.println(subsub1.methodX());
 		
 		
 	}
