@@ -21,7 +21,6 @@ public class Clazz {
 			System.out.println("Cat is an Animal");
 		}
 		
-		
 	}
 
 }
