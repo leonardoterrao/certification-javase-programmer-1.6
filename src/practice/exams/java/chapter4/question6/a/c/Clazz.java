@@ -3,7 +3,7 @@ package practice.exams.java.chapter4.question6.a.c;
 import java.util.ArrayList;
 import java.util.List;
 
-import practice.exams.java.chapter4.question6.a.Items;
+import practice.exams.java.chapter4.question6.Items;
 
 public class Clazz {
 

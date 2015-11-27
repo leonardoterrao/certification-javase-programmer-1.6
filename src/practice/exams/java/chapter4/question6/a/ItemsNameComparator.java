@@ -2,6 +2,8 @@ package practice.exams.java.chapter4.question6.a;
 
 import java.util.Comparator;
 
+import practice.exams.java.chapter4.question6.Items;
+
 public class ItemsNameComparator implements Comparator<Items> {
 
 	@Override

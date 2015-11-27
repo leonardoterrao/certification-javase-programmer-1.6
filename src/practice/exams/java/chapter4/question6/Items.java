@@ -1,4 +1,4 @@
-package practice.exams.java.chapter4.question6.a;
+package practice.exams.java.chapter4.question6;
 
 import java.util.Comparator;
 

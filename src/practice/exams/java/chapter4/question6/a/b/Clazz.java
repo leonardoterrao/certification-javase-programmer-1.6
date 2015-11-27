@@ -2,7 +2,7 @@ package practice.exams.java.chapter4.question6.a.b;
 
 import java.util.PriorityQueue;
 
-import practice.exams.java.chapter4.question6.a.Items;
+import practice.exams.java.chapter4.question6.Items;
 
 public class Clazz {
 
