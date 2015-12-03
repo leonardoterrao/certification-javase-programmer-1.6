@@ -3,19 +3,15 @@ package test.killer.troytec.question3;
 public class Single {
 
 	private static Single instance;
-	
 	public static Single getInstance() {
-		if (instance == null) {
-			instance = create();
-		}
+		if (instance == null) instance = create();
 		return instance;
 	}
 	
-	private Single() {
-		
-	}
+	protected Single() {}
 	
-	static Single create() {
-		return new Single();
-	}
+	static Single create() { return new Single(); }
+}
+
+class SubSingle extends Single {
 }

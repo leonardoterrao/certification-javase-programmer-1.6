@@ -1,4 +1,4 @@
-package test.killer.troytec.question3;
+package test.killer.troytec.question4;
 
 class ClassA {
 	public int numberOfInstances;
