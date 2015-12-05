@@ -1,11 +1,5 @@
-
-
-
-
-
-
-
-
+import utils.Beta;
+import utils.Foo;
 
 interface Foo {
 	int bar();
