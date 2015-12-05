@@ -4,7 +4,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Scanner;
+import java.util.Collection;
+import java.util.LinkedList;
 
 public class Clazz {
 
@@ -21,13 +22,23 @@ public class Clazz {
 		String first = (elements.length > 0) ? elements[0] : null;
 		
 		
-		for (int i = 0; i <= 10; i++) {
-			if (i > 6) break;
+//		for (int i = 0; i <= 10; i++) {
+//			if (i > 6) break;
+//		}
+//		System.out.println(i);
+	
+		for(Object obj : get()) {
+			System.out.print(obj + ", ");
 		}
-		System.out.println(i);
-		
+	
 	}
 
+	public static Collection get() {
+		Collection sorted = new LinkedList();
+		sorted.add("B"); sorted.add("C"); sorted.add("A");
+		return sorted;
+	}
+	
 	public static void test(String str) throws IOException {
 //		int check = 4;
 //		if (check = str.length()) {
