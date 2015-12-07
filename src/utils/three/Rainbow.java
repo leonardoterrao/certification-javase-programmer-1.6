@@ -16,6 +16,5 @@ public class Rainbow {
 
 	public static void main(String[] args) {
 		MyColor treeColor = MyColor.GREEN;
-		new MyColor(56);
 	}
 }
