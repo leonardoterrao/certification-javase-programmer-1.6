@@ -4,6 +4,10 @@ public class BreakFor {
 	
 	public static void main(String[] args) {
 		new BreakFor().go();
+		
+//		String[] elements = { "for", "tea", "too" };
+//		String first = (elements.length > 0) elements[0] : null;
+		
 	}
 	
 	public void go() {
@@ -14,7 +18,7 @@ public class BreakFor {
 					break;
 				if (x == 2 && y == 1)
 					break z;
-				o = o + x + y;
+				o = o + x + y;	
 			}
 		}
 		System.out.println(o);
