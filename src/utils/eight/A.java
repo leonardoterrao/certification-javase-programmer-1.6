@@ -1,22 +1,25 @@
-package utils.seven;
+package utils.eight;
 
 class A {
 	void foo() throws Exception {
 		throw new Exception();
 	}
-	private void x() {}
 }
 
 class SubB2 extends A {
 	void foo() {
 		System.out.println("B ");
 	}
-	public void x() {}
 }
 
 class Tester {
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		A a = new SubB2();
-		a.foo();
+		try {
+			a.foo();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
- }
+}
